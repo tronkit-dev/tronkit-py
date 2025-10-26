@@ -1,0 +1,33 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "tronkit"
+version = "0.0.1"
+description = "Modern TRON Development Toolkit (Placeholder - Coming Soon)"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+keywords = ["tron", "blockchain", "cryptocurrency", "web3", "tronkit"]
+authors = [
+    {name = "Rocky Feng", email = "folowing@gmail.com"}
+]
+classifiers = [
+    "Development Status :: 1 - Planning",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/tronkit-dev/tronkit-py"
+"Bug Tracker" = "https://github.com/tronkit-dev/tronkit-py/issues"
+"Documentation" = "https://github.com/tronkit-dev/core"
+"Source" = "https://github.com/tronkit-dev/tronkit-py"
